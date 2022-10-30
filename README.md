@@ -232,4 +232,6 @@ In the case of using the 'Polynomial' kernel, it can be seen that the performanc
 ___
 
 ### 3. using 'sigmoid' kernel
-![image](https://user-images.githubusercontent.com/115224653/198890286-38888ee9-138f-499f-9dd9-50e46513b30a.png)
+![image](https://user-images.githubusercontent.com/115224653/198890311-7ffea847-100f-4871-8a36-00cabcb43496.png)
+
+In the case of the 'sigmoid' kernel, it can be seen that as the C value increases, the performance rather degrades.
