@@ -226,5 +226,6 @@ ___
 
 ### 2. using 'poly' kernel    
    
-   ![image](https://user-images.githubusercontent.com/115224653/198889769-6cede499-8cfb-4de3-bb2f-d72151de6356.png)
-
+   ![image](https://user-images.githubusercontent.com/115224653/198889769-6cede499-8cfb-4de3-bb2f-d72151de6356.png)   
+    
+In the case of using the 'Polynomial' kernel, it can be seen that the performance decreases significantly as the C value approaches 1,000. Unlike when using the 'rbf' kernel, it can be seen that the C value forms an optimal value between 10 and 50.
