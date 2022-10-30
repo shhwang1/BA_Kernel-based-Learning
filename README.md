@@ -86,4 +86,37 @@ Thr fourth case(we do not care third case), Non-linearly Soft Margin, The fourth
    
    <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198880148-4e56d853-ca9f-4ca9-84c9-7e14a6983dc8.png"  width="900" height="400"></p>   
 
+___
+### 3. Python Code
+``` C
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn import svm
 
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+def Linearly_Hard_Case(args):
+    data = pd.read_csv(args.data_path + args.data_type)
+
+    X_data = data.iloc[:, :-1]
+    y_data = data.iloc[:, -1]
+
+    scaler = MinMaxScaler()
+    X_scaled = scaler.fit_transform(X_data)
+
+    X_train, X_test, y_train, y_test = train_test_split(X_scaled, y_data, test_size = args.split_size, shuffle=True, random_state = args.seed)
+
+    clf = svm.LinearSVC(C=1e-10, max_iter = 1000, random_state = args.seed) # 1e-10 means very small value which is close to "0" (There's no Hard-margin method in sklearn)
+    clf.fit(X_train, y_train)
+    print('Training SVM : Linearly-Hard Margin SVM.....')
+
+    # Prediction
+    pred_clf = clf.predict(X_test)
+    accuracy_clf = accuracy_score(y_test, pred_clf)
+    print('Linearly-Hard margin SVM accuracy : ', accuracy_clf)
+```    
+
+We used the scikit-learn package to implement SVM. The first case, Linearly-Hard case, does not have a suitable hyperparameter to deal with in Analysis as mentioned above. Meanwhile, an argument called 'max_iter' was found in the LinearSVC Method, which contained information indicating how many times the SVM would be trained repeatedly. So we decided to compare the experimental performance according to 'max_iter' among the few parameters.
