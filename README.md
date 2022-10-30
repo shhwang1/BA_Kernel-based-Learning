@@ -59,4 +59,4 @@ ___
 ## Support Vector Machine (SVM)   
    
 ### 1. Definition
-<p align="center"><img src="https://user-images.githubusercontent.com/115224653/198869856-10cec67e-30d9-40bf-8e28-c0b98b13f123.png"  width="600" height="600"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/115224653/198869856-10cec67e-30d9-40bf-8e28-c0b98b13f123.png"  width="600" height="400"></p>
