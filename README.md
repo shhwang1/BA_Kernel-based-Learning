@@ -219,3 +219,5 @@ Similarly, there is no significant difference in code, but kernel is used as one
    
 ![image](https://user-images.githubusercontent.com/115224653/198888850-88e19943-ed0e-4e87-99c4-7f7fa4dedc8f.png)
 Interestingly, all four datasets performed best at 1,000, the maximum value of C set. In addition, we re-experimented by increasing the C value further.
+
+![image](https://user-images.githubusercontent.com/115224653/198889164-f8451e2e-ee2e-4e27-bec4-82eadf45448d.png)
