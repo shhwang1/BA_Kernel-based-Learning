@@ -171,3 +171,6 @@ def Linearly_Soft_Case(args):
 ```    
 
 If the C value is used as a very small number close to zero in the first case, the C value is set as a hyperparameter because the error is allowed in the second case. In the second case, we conducted a comparative experiment on how the performance changes according to the value of hyperparameter C.
+
+![image](https://user-images.githubusercontent.com/115224653/198886806-2fb715c2-572a-43e3-b630-8936b4c6bcad.png)
+
