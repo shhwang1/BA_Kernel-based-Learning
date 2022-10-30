@@ -88,6 +88,9 @@ Thr fourth case(we do not care third case), Non-linearly Soft Margin, The fourth
 
 ___
 ### 3. Python Code
+
+## Case 1. Linear hard margin SVM   
+   
 ``` C
 import numpy as np
 import pandas as pd
@@ -120,3 +123,6 @@ def Linearly_Hard_Case(args):
 ```    
 
 We used the scikit-learn package to implement SVM. To implement first case, Linearly-Hard case, we set the hyperparameter 'C' as 1e-10, which is close to "0". In the scikit-learn method, this method was used because the C value could not be set to 0. 
+
+<p align="center"><img src="https://user-images.githubusercontent.com/115224653/198883366-39a0ed41-b8ed-4cec-8d7f-afe5d67cfa50.png"  width="900" height="400"></p>
+
