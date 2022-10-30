@@ -82,4 +82,8 @@ The first case, Linearly Hard Margin, is a very basic form of SVM. This method a
 
 The second case, Linearly Soft Margin, is a method of maintaining a linear classifier shape but allowing a certain amount of error. How much error is allowed can be set through the "C" value, which is a hyperparameter, and the performance difference according to the "C" value will be verified in the 'Analysis' table of contents later.
 
-Thr fourth case(we do not care third case), Non-linearly Soft Margin, The fourth method is a non-linear method that applies a soft margin method that allows errors and uses a non-linear mapping technique to map on a high-dimensional space. We compare the performance according to the 'rbf' method and the 'polynomial' method, which are widely known non-linear methods in later experiments.
+Thr fourth case(we do not care third case), Non-linearly Soft Margin, The fourth method is a non-linear method that applies a soft margin method that allows errors and uses a non-linear mapping technique to map on a high-dimensional space. We compare the performance according to the 'rbf' method and the 'polynomial' method, which are widely known non-linear methods in later experiments.   
+   
+   <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198880148-4e56d853-ca9f-4ca9-84c9-7e14a6983dc8.png"  width="500" height="300"></p>   
+
+
