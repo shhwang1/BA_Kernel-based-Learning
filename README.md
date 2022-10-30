@@ -242,4 +242,4 @@ ___
 
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198890642-4698a5cc-5cfa-4acf-b527-24a3f3c6a2e5.png"  width="650" height="400"></p>
 
-When the regression equation is estimated, the SVR generates 2ϵ(−ϵ,ϵ)tubes above and below the regression equation. If there is an actual value in the tube, the penalty is given as 0 to tolerate even if there is a difference from the predicted value.
+When the regression equation is estimated, the SVR generates 2ϵ(−ϵ,ϵ)tubes above and below the regression equation. If there is an actual value in the tube, the penalty is given as 0 to tolerate even if there is a difference from the predicted value. If there is an actual value outside the tube, it is given penalty at the magnification of C. It's kind of giving a kind of upper, lower limit for the regression line of regression. In summary, SVR assumes that there is noise in the data and does not seek to fully estimate the noisy real value considering these points, thus allowing the difference between the real value and the predicted value within a reasonable range.
