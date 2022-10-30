@@ -67,7 +67,7 @@ Accordingly, there may be a question of which hyperplane is the optimal hyperpla
 As shown in the picture below, SVM uses the hyperplane that maximizes 'Margin' as the optimal hyperplane.   
    
    
-<p align="center"><img src="https://user-images.githubusercontent.com/115224653/198870201-f2d22a11-37a8-4030-8d7f-6b9f3ba7b60b.png"  width="500" height="300"></p>   
+   <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198870201-f2d22a11-37a8-4030-8d7f-6b9f3ba7b60b.png"  width="500" height="300"></p>   
    
 However, data that is completely linearly separated like the data above, as you may have noticed, rarely exists in reality.   
 Therefore, in general, some errors are allowed, non-linear classifiers are used, and non-linear classifiers and errors are used simultaneously.   
