@@ -210,6 +210,5 @@ def Non_linearly_Soft_Case(args):
     print('Non_linearly-Soft margin SVM with ' + args.kernel + 'accuracy : ', accuracy_clf)
 ```    
 Similarly, there is no significant difference in code, but kernel is used as one of the following three rather than linear.
-<p align="center"><img src="https://user-images.githubusercontent.com/115224653/198887938-ed0ba0f8-c666-4385-800e-6dc5024fa6d6.png"  width="600" height="250"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/115224653/198888382-3d9eb8a4-7b34-4194-99b5-2d014be6d969.png"  width="800" height="400"></p>
 
-### 1. 'rbf' :  
