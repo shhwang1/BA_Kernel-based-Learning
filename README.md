@@ -221,3 +221,4 @@ Similarly, there is no significant difference in code, but kernel is used as one
 Interestingly, all four datasets performed best at 1,000, the maximum value of C set. In addition, we re-experimented by increasing the C value further.
 
 ![image](https://user-images.githubusercontent.com/115224653/198889164-f8451e2e-ee2e-4e27-bec4-82eadf45448d.png)
+When the C value exceeded 1,200, the performance converged, and rather, a falling dataset was found. For the four datasets, it was found that the C values of 1,000 to 1,200 showed the best performance.
