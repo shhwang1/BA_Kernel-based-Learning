@@ -119,4 +119,4 @@ def Linearly_Hard_Case(args):
     print('Linearly-Hard margin SVM accuracy : ', accuracy_clf)
 ```    
 
-We used the scikit-learn package to implement SVM. The first case, Linearly-Hard case, does not have a suitable hyperparameter to deal with in Analysis as mentioned above. Meanwhile, an argument called 'max_iter' was found in the LinearSVC Method, which contained information indicating how many times the SVM would be trained repeatedly. So we decided to compare the experimental performance according to 'max_iter' among the few parameters.
+We used the scikit-learn package to implement SVM. To implement first case, Linearly-Hard case, we set the hyperparameter 'C' as 1e-10, which is close to "0". In the scikit-learn method, this method was used because the C value could not be set to 0. 
