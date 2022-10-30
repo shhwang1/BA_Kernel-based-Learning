@@ -71,6 +71,7 @@ As shown in the picture below, SVM uses the hyperplane that maximizes 'Margin' a
    
 However, data that is completely linearly separated like the data above, as you may have noticed, rarely exists in reality.   
 Therefore, in general, some errors are allowed, non-linear classifiers are used, and non-linear classifiers and errors are used simultaneously.   
+   
 Arrange each case in the table of contents below.   
 
 ___   
