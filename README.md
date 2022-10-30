@@ -174,4 +174,4 @@ If the C value is used as a very small number close to zero in the first case, t
 
 ![image](https://user-images.githubusercontent.com/115224653/198886806-2fb715c2-572a-43e3-b630-8936b4c6bcad.png)
 
-As you can see, excluding PersonalLoan dataset, increasing the C value does not mean improving performance. It can be seen that most datasets converge to a specific accuracy value as the C value increases.
+As you can see, excluding PersonalLoan dataset, increasing the C value does not mean improving performance. This can be interpreted that if the C value becomes appropriately large, the magnitude of the error to be multiplied with the C value converges to almost zero, so that the C value does not affect the performance. It can be seen that most datasets converge to a specific accuracy value as the C value increases. And most of them performed best when the C value was 5 or 10, but PersoanlLoan's performance continued to rise as the C value increased. So, we checked whether the performance converges when the PersonalLoan dataset has a C value.
