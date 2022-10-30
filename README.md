@@ -126,3 +126,4 @@ We used the scikit-learn package to implement SVM. To implement first case, Line
 
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198883366-39a0ed41-b8ed-4cec-8d7f-afe5d67cfa50.png"  width="400" height="350"></p>
 
+In the case of the first case, Linearly Hard Margin, there is no specific hyperparameter to tune for performance comparison. Therefore, hyperparameter tuning for performance comparison will be performed in the second and third cases.
