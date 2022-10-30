@@ -78,3 +78,4 @@ ___
 ### 2. Cases of SVM   
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198870628-2a6bea54-48c4-412f-8e43-7dbeb6190a08.png"  width="1000" height="300"></p> 
 
+The first case, Linearly Hard Margin, is a very basic form of SVM.
