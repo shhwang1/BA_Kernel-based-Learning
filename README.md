@@ -53,3 +53,7 @@ data = pd.read_csv(args.data_path + args.data_type)
 X_data = data.iloc[:, :-1]
 y_data = data.iloc[:, -1]
 ```
+
+___
+
+## Support Vector Machine (SVM)
