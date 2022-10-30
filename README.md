@@ -109,7 +109,7 @@ def Linearly_Hard_Case(args):
 
     X_train, X_test, y_train, y_test = train_test_split(X_scaled, y_data, test_size = args.split_size, shuffle=True, random_state = args.seed)
 
-    clf = svm.LinearSVC(C=1e-10, max_iter = 1000, random_state = args.seed) # 1e-10 means very small value which is close to "0" (There's no Hard-margin method in sklearn)
+    clf = svm.LinearSVC(C=1e-10, max_iter = args.max_iter, random_state = args.seed) # 1e-10 means very small value which is close to "0" (There's no Hard-margin method in sklearn)
     clf.fit(X_train, y_train)
     print('Training SVM : Linearly-Hard Margin SVM.....')
 
