@@ -24,3 +24,31 @@ ___
 #### 2. Python Code  
    
 #### 3. Analysis 
+
+## Dataset
+We use 4 datasets (abalone, Diabetes, PersonalLoan, WineQuality)
+
+abalone dataset : <https://www.kaggle.com/datasets/rodolfomendes/abalone-dataset>     
+Diabetes dataset : <https://www.kaggle.com/datasets/mathchi/diabetes-data-set>   
+PersonalLoan dataset : <https://www.kaggle.com/datasets/teertha/personal-loan-modeling>   
+WineQuality datset : <https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009>    
+
+Each dataset is a dataset for classification with a specific class value as y-data.   
+   
+In all methods, data is used in the following form.
+``` C
+import argparse
+
+def Parser1():
+    parser = argparse.ArgumentParser(description='1_Dimensionality Reduction')
+
+    # data type
+    parser.add_argument('--data-path', type=str, default='./data/')
+    parser.add_argument('--data-type', type=str, default='abalone.csv',
+                        choices = ['abalone.csv', 'BankNote.csv', 'PersonalLoan.csv', 'WineQuality.csv', 'Diabetes.csv'])
+                        
+data = pd.read_csv(args.data_path + args.data_type)
+
+X_data = data.iloc[:, :-1]
+y_data = data.iloc[:, -1]
+```
