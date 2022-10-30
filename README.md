@@ -174,3 +174,4 @@ If the C value is used as a very small number close to zero in the first case, t
 
 ![image](https://user-images.githubusercontent.com/115224653/198886806-2fb715c2-572a-43e3-b630-8936b4c6bcad.png)
 
+As you can see, excluding PersonalLoan dataset, increasing the C value does not mean improving performance. It can be seen that most datasets converge to a specific accuracy value as the C value increases.
