@@ -132,6 +132,6 @@ In the case of the first case, Linearly Hard Margin, there is no specific hyperp
 
 For visualization, two X variables were extracted from each dataset to learn, and the data and linear classifier were visualized.
 
-![image](https://user-images.githubusercontent.com/115224653/198885042-ad6caeb7-ac30-4b19-9d70-063753802576.png)
+![image](https://user-images.githubusercontent.com/115224653/198885077-da30c0a4-0498-435a-874e-c8bff75f9b2f.png)
 
 
