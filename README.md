@@ -134,5 +134,7 @@ For visualization, two X variables were extracted from each dataset to learn, an
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198885395-196ad34b-523a-4802-a59c-07daf34bba6c.png"  width="900" height="350"></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198885077-da30c0a4-0498-435a-874e-c8bff75f9b2f.png"  width="900" height="350"></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198885728-034273eb-8836-457f-b17f-4fe4ffaef145.png"  width="900" height="350"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/115224653/198885911-f4d5298b-4e2a-48a0-b9d9-30b9078e3226.png"  width="900" height="350"></p>
 
+The above pictures are not related to the accuracy score table shown earlier because they are the results of learning by selecting only two variables. Since only two variables were used, the classification accuracy is very poor and the characteristics of the data are not accurately described. To visualize what happens when SVM is applied instead of hyperparameter tuning, only two variables were used to plot in a two-dimensional space. It would be good to think of it as a reference material that visually understands that SVM proceeds in this way.
 
