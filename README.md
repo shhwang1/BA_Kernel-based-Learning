@@ -56,4 +56,6 @@ y_data = data.iloc[:, -1]
 
 ___
 
-## Support Vector Machine (SVM)
+## Support Vector Machine (SVM)   
+   
+### 1. Definition
