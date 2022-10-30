@@ -80,4 +80,4 @@ ___
 
 The first case, Linearly Hard Margin, is a very basic form of SVM. This method assumes that the data is linearly separated and has a feature that does not allow any errors. As mentioned above, it can be said that it is a very difficult method to apply in reality.   
 
-The second case, Linearly Soft Margin, is a method of maintaining a linear classifier shape but allowing a certain amount of error. How much error is allowed can be set through the "C" value, which is a hyperparameter, and the performance difference according to the "C" value will be verified in the 'Analysis' able of Contents later.
+The second case, Linearly Soft Margin, is a method of maintaining a linear classifier shape but allowing a certain amount of error. How much error is allowed can be set through the "C" value, which is a hyperparameter, and the performance difference according to the "C" value will be verified in the 'Analysis' table of contents later.
