@@ -242,3 +242,4 @@ ___
 
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198890642-4698a5cc-5cfa-4acf-b527-24a3f3c6a2e5.png"  width="650" height="400"></p>
 
+When the regression equation is estimated, the SVR generates 2ϵ(−ϵ,ϵ)tubes above and below the regression equation.
