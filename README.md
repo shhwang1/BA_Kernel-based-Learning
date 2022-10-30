@@ -61,4 +61,4 @@ ___
 ### 1. Definition
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198869856-10cec67e-30d9-40bf-8e28-c0b98b13f123.png"  width="450" height="250"></p>   
    
-In general, Support Vector Machine refers to a methodology for separating data using a line called a 'Hyperplane'. 
+In general, Support Vector Machine refers to a methodology for separating data using a line called a 'Hyperplane'. However, in the case of the above picture, it is possible to create a lot of hyperplanes that separate the data well just by properly changing the slope of the line.
