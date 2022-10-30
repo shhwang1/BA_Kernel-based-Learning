@@ -178,4 +178,4 @@ As you can see, excluding PersonalLoan dataset, increasing the C value does not 
 
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198887193-2a508564-a6fe-44d6-85f6-6d601cdbc97c.png"  width="600" height="250"></p>
 
-
+## Case 3. Non-Linear Soft margin SVM
