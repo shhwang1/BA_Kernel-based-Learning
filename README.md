@@ -66,4 +66,7 @@ In general, Support Vector Machine refers to a methodology for separating data u
    
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198870201-f2d22a11-37a8-4030-8d7f-6b9f3ba7b60b.png"  width="500" height="300"></p>   
    
-However, data that is completely linearly separated like the data above, as you may have noticed, rarely exists in reality.Therefore, in general, some errors are allowed, non-linear classifiers are used, and non-linear classifiers and errors are used simultaneously. Arrange each case in the table of contents below.
+However, data that is completely linearly separated like the data above, as you may have noticed, rarely exists in reality. Therefore, in general, some errors are allowed, non-linear classifiers are used, and non-linear classifiers and errors are used simultaneously. Arrange each case in the table of contents below.   
+
+___   
+### 2. Cases of SVM
