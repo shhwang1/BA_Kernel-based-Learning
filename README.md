@@ -235,3 +235,7 @@ ___
 ![image](https://user-images.githubusercontent.com/115224653/198890311-7ffea847-100f-4871-8a36-00cabcb43496.png)
 
 In the case of the 'sigmoid' kernel, it can be seen that as the C value increases, the performance rather degrades.
+
+___
+
+## Support Vector Regression (SVR)   
