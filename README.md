@@ -239,5 +239,5 @@ In the case of the 'sigmoid' kernel, it can be seen that as the C value increase
 ___
 
 ## Support Vector Regression (SVR)   
-![image](https://user-images.githubusercontent.com/115224653/198890591-f3839fcd-2ffe-43d5-9521-9a62a4c16928.png)
+
 
