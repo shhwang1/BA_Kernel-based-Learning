@@ -240,5 +240,5 @@ ___
 
 ## Support Vector Regression (SVR)   
 
-<p align="center"><img src="https://user-images.githubusercontent.com/115224653/198890642-4698a5cc-5cfa-4acf-b527-24a3f3c6a2e5.png"  width="600" height="450"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/115224653/198890642-4698a5cc-5cfa-4acf-b527-24a3f3c6a2e5.png"  width="650" height="400"></p>
 
