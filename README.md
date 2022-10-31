@@ -303,3 +303,7 @@ def SVR(args):
 
 Unlike SVM, SVR is a regression problem, so the metrics must be changed. So, we used three metrics, R2_score, Mean Absolute Error, and Mean Absolute Percent Error, instead of using existing accuracy metrics. The formula for evaluation indicators is briefly shown below.
 ![image](https://user-images.githubusercontent.com/115224653/198954195-8ba6a1d9-58c0-4ebc-b90f-1ca7813035a3.png)
+___
+
+## Analysis   
+In the fourth case of SVM, as in the case of Non-linearly Soft Margin, SVR also utilizes a non-linear kernel. Likewise, three kernels, 'rbf', 'poly', and 'sigmoid', were used.
