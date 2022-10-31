@@ -35,9 +35,9 @@ Diabetes dataset : <https://www.kaggle.com/datasets/mathchi/diabetes-data-set>
 PersonalLoan dataset : <https://www.kaggle.com/datasets/teertha/personal-loan-modeling>   
 WineQuality datset : <https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009>    
 
-Concrete dataset : <https://www.kaggle.com/datasets/elikplim/concrete-compressive-strength-data-set>
-Estate dataset : <https://www.kaggle.com/datasets/arslanali4343/real-estate-dataset>
-ToyotaCorolla dataset : <https://www.kaggle.com/datasets/klkwak/toyotacorollacsv>
+Concrete dataset : <https://www.kaggle.com/datasets/elikplim/concrete-compressive-strength-data-set>   
+Estate dataset : <https://www.kaggle.com/datasets/arslanali4343/real-estate-dataset>   
+ToyotaCorolla dataset : <https://www.kaggle.com/datasets/klkwak/toyotacorollacsv>   
 
 In all methods, data is used in the following form.
 ``` C
