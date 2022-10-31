@@ -310,7 +310,7 @@ Unlike SVM, SVR is a regression problem, so the metrics must be changed. So, we 
 ___
 
 ## Analysis   
-The SVR can utilize a linear kernel. And also, as in the case of Non-linearly Soft Margin, SVR also utilizes a non-linear kernel. Likewise, three kernels, 'rbf', 'poly', and 'sigmoid', were used(Totally 4-kernels were used).
+The SVR can utilize a linear kernel. And also, as in the case of Non-linearly Soft Margin, SVR also utilizes a non-linear kernel. Likewise, 'rbf', 'poly', were used(Sigmoid kernels quite do not fit well, so totally 3-kernels were used).
 
 ### 1. using 'linear' kernel   
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198957635-74d82105-5804-47ae-a2d2-e00ac4313b50.png" width="750" height="450"></p>
