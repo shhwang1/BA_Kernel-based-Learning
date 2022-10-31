@@ -27,15 +27,18 @@ ___
 ___
 
 ## Dataset
-We use 4 datasets (abalone, Diabetes, PersonalLoan, WineQuality)
+We use 4 classification datasets for SVM (abalone, Diabetes, PersonalLoan, WineQuality)   
+We use 3 regression datasets for SVR (Concrete, Estate, ToyotaCorolla)
 
 abalone dataset : <https://www.kaggle.com/datasets/rodolfomendes/abalone-dataset>     
 Diabetes dataset : <https://www.kaggle.com/datasets/mathchi/diabetes-data-set>   
 PersonalLoan dataset : <https://www.kaggle.com/datasets/teertha/personal-loan-modeling>   
 WineQuality datset : <https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009>    
 
-Each dataset is a dataset for classification with a specific class value as y-data.   
-   
+Concrete dataset : <https://www.kaggle.com/datasets/elikplim/concrete-compressive-strength-data-set>
+Estate dataset : <https://www.kaggle.com/datasets/arslanali4343/real-estate-dataset>
+ToyotaCorolla dataset : <https://www.kaggle.com/datasets/klkwak/toyotacorollacsv>
+
 In all methods, data is used in the following form.
 ``` C
 import argparse
@@ -46,7 +49,8 @@ def Parser1():
     # data type
     parser.add_argument('--data-path', type=str, default='./data/')
     parser.add_argument('--data-type', type=str, default='abalone.csv',
-                        choices = ['abalone.csv', 'BankNote.csv', 'PersonalLoan.csv', 'WineQuality.csv', 'Diabetes.csv'])
+                        choices = ['abalone.csv', 'BankNote.csv', 'PersonalLoan.csv', 'WineQuality.csv', 'Diabetes.csv', 'Concrete.csv', 
+                                    'Estate.csv', 'ToyotaCorolla.csv'])
                         
 data = pd.read_csv(args.data_path + args.data_type)
 
