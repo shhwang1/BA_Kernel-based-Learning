@@ -176,8 +176,9 @@ If the C value is used as a very small number close to zero in the first case, t
 
 Before we do analysis, let's talk about the hyperparameter 'C'. Hyperparameter C can be said to be a value that adjusts how much error is allowed in the Softmargin SVM that allows error. It is difficult to explain in words, so it is good to refer to the formula below.
 
-![image](https://user-images.githubusercontent.com/115224653/198947445-bf89121a-d552-4c20-864f-75153437fd7b.png)
+![image](https://user-images.githubusercontent.com/115224653/198947445-bf89121a-d552-4c20-864f-75153437fd7b.png)   
 
+Looking at the optimization formula, it is a problem of minimization for the overall equation, and the right term has a product of the sum of the error term and C. Therefore, if the C value is taken high, the sum of the error terms will be induced to have a small value for the purpose of minimization. Conversely, if the C value is low, it indicates that the error term will be allowed relatively more than if the C value is high. We will look at the following Analysis Table of Contents to see how performance changes according to changes in C values.
 
 ## Analysis
 
