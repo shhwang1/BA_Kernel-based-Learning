@@ -330,4 +330,6 @@ The C value was intended to be up to 4000, but the performance continued to rise
 ### 3. using 'poly' kernel   
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198963376-0a3dc998-41e6-420b-b94c-a0a89d5f7616.png" width="750" height="450"></p>
 
-The poly kernel showed a different pattern from the previous two kernels. Concrete dataset and Estate dataset showed that their performance almost converged even when the C value was only 5~10. 
+The poly kernel showed a different pattern from the previous two kernels. Concrete dataset and Estate dataset showed that their performance almost converged even when the C value was only 5~10. And in the case of Toyota Corolla dataset, even if the C value was not raised to 16000 like the previous rbf kernel, it already showed the best performance in all three kernels at about 1000. However, the convergence values of Concrete and Estate datasets were not the best performance, and these datasets performed best when using rbf kernel.   
+
+As a result, it was found that the types of kernels that extract good performance are different for each dataset.
