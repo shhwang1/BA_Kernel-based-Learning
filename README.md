@@ -322,4 +322,6 @@ The performance shows a slight increase until the C value has a large value of 4
 ### 2. using 'rbf' kernel   
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198960891-69f412d3-bba3-4df8-b4fb-c921ab7acb35.png" width="750" height="450"></p>
 
-Likewise, rbf's performance improved as C increased to a value of 1000, and the increase in performance was much larger than that of linear kernel. Similarly, C was re-experimented by increasing it to 4000.
+Likewise, rbf's performance improved as C increased to a value of 1000, and the increase in performance was much larger than that of linear kernel. Similarly, C was re-experimented by increasing it to 4000.   
+<p align="center"><img src="https://user-images.githubusercontent.com/115224653/198961753-99dfda39-9f82-4137-96e5-6a40eb65dd0f.png" width="750" height="450"></p>
+
