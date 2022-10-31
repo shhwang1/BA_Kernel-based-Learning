@@ -312,4 +312,4 @@ The SVR can utilize a linear kernel. And also, as in the case of Non-linearly So
 In the case of using a linear kernel, it was confirmed that as the C value increased toward 1000, the performance of all three indicators gradually improved. Accordingly, the C value was increased to be re-experimented.   
 
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198958620-29d4b4b0-f4a4-4a01-92fd-d72b5a983ebc.png" width="600" height="450"></p>
-The performance shows a slight increase until the C value has a large value of 4000. However, the increase was very small as if converging, so it was judged that further re-experiments were meaningless.
+The performance shows a slight increase until the C value has a large value of 4000. However, the increase was very small as if converging, so it was judged that further re-experiments were meaningless. Like the SVM, it was confirmed that the performance of SVR converges when the C value increases to some extent.
