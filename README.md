@@ -319,4 +319,6 @@ In the case of using a linear kernel, it was confirmed that as the C value incre
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198958620-29d4b4b0-f4a4-4a01-92fd-d72b5a983ebc.png" width="600" height="450"></p>
 The performance shows a slight increase until the C value has a large value of 4000. However, the increase was very small as if converging, so it was judged that further re-experiments were meaningless. Like the SVM, it was confirmed that the performance of SVR converges when the C value increases to some extent.
 
-### 2. using 'rbf' kernel 
+### 2. using 'rbf' kernel   
+<p align="center"><img src="https://user-images.githubusercontent.com/115224653/198960564-9f2e5b04-2c9d-45c3-bb18-bd3f3db85a8f.png" width="750" height="450"></p>
+
