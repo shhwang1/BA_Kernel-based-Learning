@@ -309,4 +309,7 @@ ___
 The SVR can utilize a linear kernel. And also, as in the case of Non-linearly Soft Margin, SVR also utilizes a non-linear kernel. Likewise, three kernels, 'rbf', 'poly', and 'sigmoid', were used(Totally 4-kernels were used).
 
 <p align="center"><img src="https://user-images.githubusercontent.com/115224653/198957635-74d82105-5804-47ae-a2d2-e00ac4313b50.png" width="750" height="450"></p>
-In the case of using a linear kernel, it was confirmed that as the C value increased toward 1000, the performance of all three indicators gradually improved. Accordingly, the C value was increased to be re-experimented.
+In the case of using a linear kernel, it was confirmed that as the C value increased toward 1000, the performance of all three indicators gradually improved. Accordingly, the C value was increased to be re-experimented.   
+
+<p align="center"><img src="https://user-images.githubusercontent.com/115224653/198958620-29d4b4b0-f4a4-4a01-92fd-d72b5a983ebc.png" width="750" height="450"></p>
+
