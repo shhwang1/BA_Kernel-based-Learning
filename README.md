@@ -170,7 +170,14 @@ def Linearly_Soft_Case(args):
     print('Linearly-Soft margin SVM accuracy : ', accuracy_clf)
 ```    
 
-If the C value is used as a very small number close to zero in the first case, the C value is set as a hyperparameter because the error is allowed in the second case. In the second case, we conducted a comparative experiment on how the performance changes according to the value of hyperparameter C.
+If the C value is used as a very small number close to zero in the first case, the C value is set as a hyperparameter because the error is allowed in the second case. In the second case, we conducted a comparative experiment on how the performance changes according to the value of hyperparameter C.  
+
+### What is "C"?
+
+Before we do analysis, let's talk about the hyperparameter 'C'. Hyperparameter C can be said to be a value that adjusts how much error is allowed in the Softmargin SVM that allows error. It is difficult to explain in words, so it is good to refer to the formula below.
+
+![image](https://user-images.githubusercontent.com/115224653/198947445-bf89121a-d552-4c20-864f-75153437fd7b.png)
+
 
 ## Analysis
 
