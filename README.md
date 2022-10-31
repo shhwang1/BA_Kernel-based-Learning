@@ -328,3 +328,6 @@ Likewise, rbf's performance improved as C increased to a value of 1000, and the 
 The C value was intended to be up to 4000, but the performance continued to rise to 16000. Through this, it was found that the threshold of the C value, in which performance improvement continues, was different for each kernel.
 
 ### 3. using 'poly' kernel   
+<p align="center"><img src="https://user-images.githubusercontent.com/115224653/198963376-0a3dc998-41e6-420b-b94c-a0a89d5f7616.png" width="750" height="450"></p>
+
+The poly kernel showed a different pattern from the previous two kernels. Concrete dataset and Estate dataset showed that their performance almost converged even when the C value was only 5~10. 
